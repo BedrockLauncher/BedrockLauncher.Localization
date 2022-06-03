@@ -1,4 +1,4 @@
-﻿# Setup
+﻿# Konfigurator
 1. In your Minecraft Launcher, click Minecraft Dungeons and select `Installations`
 2. You will see a folder path above two buttons, copy it and append `\dungeons\dungeons` to it
 3. In the Bedrock Launcher, set the install location to this path
@@ -8,6 +8,6 @@
 
 # How to Update
 1. Click on `Uninstall Symbolic Link` in the Bedrock Launcher
-2. Update the Game through the Minecraft Launcher
+2. Zaktualizuj grę poprzez Minecraft Launcher
 3. Click on `Install Symbolic Link` in the Bedrock Launcher
-4. Done
+4. Gotowe

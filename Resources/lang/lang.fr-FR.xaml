@@ -553,7 +553,7 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="ThemeEntries_EarlyLegacyConsole">Original Legacy Console Era</v:String>
     <v:String x:Key="ThemeEntries_MidLegacyConsole">Mid Legacy Console Era</v:String>
     <v:String x:Key="ThemeEntries_LateLegacyConsole">Late Legacy Console Era</v:String>
-    <v:String x:Key="ThemeEntries_IndieDays">Jour de l'indépendance</v:String>
+    <v:String x:Key="ThemeEntries_IndieDays">Époque Indev</v:String>
     <v:String x:Key="ThemeEntries_Dungeons">Minecraft Dungeons</v:String>
 
 

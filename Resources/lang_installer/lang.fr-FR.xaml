@@ -23,7 +23,7 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="Installer_WelcomePage_Info3_Text">Cliquez sur Suivant pour continuer, ou Annuler pour quitter le Setup.</v:String>
 
     <v:String x:Key="Installer_LicenseAgreement_Title">Contrat de Licence</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Info_Text">Please read the following License Agreement. You must accept the terms of this</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info_Text">Veuillez lire le Contrat de Licence ci-dessous. Vous devez accepter les termes de ce</v:String>
     <v:String x:Key="Installer_LicenseAgreement_Info2_Text">contrat avant de poursuivre l'installation.</v:String>
     <v:String x:Key="Installer_LicenseAgreement_Accept_Text">J'accepte la licence.</v:String>
     <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">Je n'accepte pas la licence.</v:String>
@@ -48,7 +48,7 @@ du Minecraft Bedrock Launcher</v:String>
     <v:String x:Key="Installer_InstallLocation_AddToStartMenu_Text">Ajouter au menu Démarrer</v:String>
     <v:String x:Key="Installer_InstallLocation_RegisterApp_Text">Enregistrer le programme</v:String>
 
-    <v:String x:Key="Installer_InstallationProgress_LaunchOnExit_Text">Démarrer le programme à la Sortie</v:String>
+    <v:String x:Key="Installer_InstallationProgress_LaunchOnExit_Text">Démarrer le programme à la sortie</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_FilesInUse">Certains fichiers sont pour l'instant en cours d'utilisation par :</v:String>
 

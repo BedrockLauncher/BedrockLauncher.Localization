@@ -6,17 +6,17 @@ The Windows Store version of Minecraft Dungeons normally won't let you modify it
 - If you use Bitdefender, you need to uninstall it before continuing, as it breaks the script even when turned off.
 - Make sure you have at least 10 GBs of space free.
 - Make sure your game is up to date. To do this, press Win + R, enter `ms-windows-store://DownloadsAndUpdates/` and press enter. Then, press "Get updates" in the top right corner of the window that opens.
-- Install [Visual C++ Redist](https://aka.ms/vs/16/release/vc_redist.x64.exe). Even if you think you have it installed, try the installer. You may have an older version that won't work.
+- Встановити [Visual C++ Redist](https://aka.ms/vs/16/release/vc_redist.x64.exe). Even if you think you have it installed, try the installer. You may have an older version that won't work.
 
-## In the Bedrock Launcher:
+## У лаунчері Bedrock:
 1. Make Sure your game variant is set to `Microsoft Store`
 3. Натисніть `Встановити Store Patch`
 
 ## У вікні Powershell:
 
 3. Вам буде запропоновано вибрати теку. Choose an empty folder where you want the game to be moved to. Do not choose a folder in Program Files or One Drive, it will break things.
-4. The game will open at one point. Do not close it when this happens. If you run into any issues, make sure to check the Troubleshooting section below.
-5. A `~mods` folder will appear. This is where you place your mods.
+4. The game will open at one point. Не закривайте це, коли це станеться. Якщо у вас виникли будь-які проблеми, не забудьте перевірити розділ усунення неполадок нижче.
+5. Папка `~моди` з'явиться. This is where you place your mods.
 7. Launching the modded game is just like launching the regular game. You can do it from the start menu, Windows Store, Xbox app, and so on, just like you normally do. Do NOT try to launch it by running the .exe files in the game folder.
 
 ## Усунення проблем:

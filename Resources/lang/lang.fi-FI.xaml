@@ -13,7 +13,7 @@
     
     <!-- #region CommunityPage -->
 
-    <v:String x:Key="CommunityPage_SupportText">❤ Support Development ❤</v:String>
+    <v:String x:Key="CommunityPage_SupportText">❤ Tue kehitystä ❤</v:String>
     <v:String x:Key="CommunityPage_ComingSoon">Tulossa pian!</v:String>
     <v:String x:Key="CommunityPage_CheckBackLater">Tarkista tämä myöhemmin jos haluat nähdä jotain SUPERMAHTAVAA!</v:String>
 
@@ -337,7 +337,7 @@
     <v:String x:Key="FirstLaunch_BackupCheckBox_Subtext">(SUOSITELTU)</v:String>
     <v:String x:Key="FirstLaunch_CloseButton">Sulje</v:String>
     <v:String x:Key="FirstLaunch_BackButton">Takaisin</v:String>
-    <v:String x:Key="FirstLaunch_GoBackButton">❮ GO BACK</v:String>
+    <v:String x:Key="FirstLaunch_GoBackButton">❮ TAKAISIN</v:String>
     <v:String x:Key="FirstLaunch_CreateProfileText">PROFIILI</v:String>
     <v:String x:Key="FirstLaunch_CreateProfileButton">Luo</v:String>
     <v:String x:Key="FirstLaunch_NextButton">Seuraava</v:String>
@@ -398,7 +398,7 @@
 
     <!--#region NewProfile -->
 
-    <v:String x:Key="NewProfile_GoBackButton">❮ GO BACK</v:String>
+    <v:String x:Key="NewProfile_GoBackButton">❮ TAKAISIN</v:String>
     <v:String x:Key="NewProfile_CreateProfileText">PROFIILI</v:String>
     <v:String x:Key="NewProfile_CreateProfileText_Error">TÄMÄ NIMI ON JO OTETTU</v:String>
     <v:String x:Key="NewProfile_CreateProfileSubTitle">Syötä uuden profiilisi nimi!</v:String>
