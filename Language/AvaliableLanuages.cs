@@ -13,12 +13,16 @@ namespace BedrockLauncher.Localization.Language
             return new List<string>()
             {
                 "en-US",
-                "fr-FR",
-                "fi-FI",
-                "ru-RU",
-                "pt-BR",
                 "es-ES",
+                "fi-FI",
+                "fr-FR",
+                "ru-RU",
+                "ms-MS",
+                "pl-PL",
+                "pt-PT",
+                "pt-BR",
                 "uk-UA",
+                "zh-CH",
                 "zh-TW"
             };
         }
