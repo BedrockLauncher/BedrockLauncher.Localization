@@ -2,7 +2,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ignore="http://www.galasoft.ch/ignore" xmlns:v="clr-namespace:System;assembly=mscorlib">
     <!--#region Main Section-->
 
-    <v:String x:Key="LanguageString">İngilizce - ABD</v:String>
+    <v:String x:Key="LanguageString">Türkçe - Türkiye</v:String>
 
     <!--#region MainWindow -->
 
@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Kurulum İsmi</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -450,6 +451,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="ThemeEntries_Original">Orijinal</v:String>
     <v:String x:Key="ThemeEntries_Custom">Özel</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Mağaralar &amp; Kayalıklar (Kısım 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Mağaralar &amp; Kayalıklar (Kısım 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Nether Güncellemesi</v:String>
@@ -484,6 +486,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Duplicate">Çoğalt</v:String>
     <v:String x:Key="GeneralText_Remove">Kaldır</v:String>
     <v:String x:Key="GeneralText_Cancel">İptal</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
     <v:String x:Key="GeneralText_Update">Güncelle</v:String>
     <v:String x:Key="GeneralText_Install">Yükle</v:String>
     <v:String x:Key="GeneralText_Add">Ekle</v:String>
@@ -498,6 +501,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Releases">Sürümler</v:String>
     <v:String x:Key="GeneralText_Betas">Betalar</v:String>
     <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
     <v:String x:Key="GeneralText_Export">Dışa Aktar</v:String>
     <v:String x:Key="GeneralText_Repair">Onar</v:String>
 
@@ -510,6 +514,7 @@ turned off, try turning the back on and search again</v:String>
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">SÜRÜMLER</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">GÖZAT</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">SIFIRLA</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">KATEGORİLER</v:String>

@@ -49,7 +49,7 @@
 
     <!--#region ProfileButton -->
 
-    <v:String x:Key="ProfileButton_ManageProfiles_Text">Керування профілями</v:String>
+    <v:String x:Key="ProfileButton_ManageProfiles_Text">Керувати профілями</v:String>
     <v:String x:Key="ProfileButton_ProfileSettings_Text">Налаштування профіля</v:String>
     <v:String x:Key="ProfileButton_AddProfile_Text">Додати профіль</v:String>
     <v:String x:Key="ProfileButton_RemoveProfile_Text">Вилучити профіль</v:String>
@@ -78,9 +78,10 @@
 
     <v:String x:Key="InstallationsPage_SortBy_LatestPlayed">Зіграно в останній раз</v:String>
     <v:String x:Key="InstallationsPage_SortBy_Name">Назвою</v:String>
-    <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
+    <v:String x:Key="InstallationsPage_SortBy_None">Відсутнє</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Назва інсталяції</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Версія тексту</v:String>
 
     <!--#endregion-->
 
@@ -92,8 +93,8 @@
     <v:String x:Key="EditInstallationScreen_CreateButton">Створити</v:String>
     <v:String x:Key="EditInstallationScreen_AltCreateButton">Зберегти</v:String>
 
-    <v:String x:Key="EditInstallationScreen_LatestPreview">Latest preview</v:String>
-    <v:String x:Key="EditInstallationScreen_LatestBeta">Latest beta</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestPreview">Останній Попередній перегляд</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestBeta">Остання бета</v:String>
     <v:String x:Key="EditInstallationScreen_LatestRelease">Останній реліз</v:String>
 
     <v:String x:Key="EditInstallationScreen_NameSubtitle">НАЗВА</v:String>
@@ -101,7 +102,7 @@
     <v:String x:Key="EditInstallationScreen_DirectorySubtitle">ТЕКА</v:String>
 
     <v:String x:Key="EditInstallationScreen_NameHintText">&lt;безіменна інсталяція&gt;</v:String>
-    <v:String x:Key="EditInstallationScreen_DirectoryHintText">&lt;default path&gt;</v:String>
+    <v:String x:Key="EditInstallationScreen_DirectoryHintText">&lt;шлях за замовчуванням&gt;</v:String>
 
     <!--#endregion-->
 
@@ -129,8 +130,8 @@
     <v:String x:Key="LauncherNewsPage_Build_Text">Збірка</v:String>
     <v:String x:Key="LauncherNewsPage_Changes_Text">Зміни:</v:String>
     <v:String x:Key="LauncherNewsPage_CheckForUpdates">Перевірити наявність оновлень</v:String>
-    <v:String x:Key="LauncherNewsPage_GetUpdates">Get Updates</v:String>
-    <v:String x:Key="LauncherNewsPage_CurrentBuild_Text">Поточний</v:String>
+    <v:String x:Key="LauncherNewsPage_GetUpdates">Отримати оновлення</v:String>
+    <v:String x:Key="LauncherNewsPage_CurrentBuild_Text">Поточне</v:String>
 
     <!--#endregion-->
 
@@ -145,7 +146,7 @@
 
     <v:String x:Key="NewsScreen_JavaNDungeons_JavaCheckbox">Minecraft: Java Edition</v:String>
     <v:String x:Key="NewsScreen_JavaNDungeons_DungeonsCheckbox">Minecraft Dungeons</v:String>
-    <v:String x:Key="NewsScreen_JavaNDungeons_BedrockCheckbox">Майнкрафт для Windows</v:String>
+    <v:String x:Key="NewsScreen_JavaNDungeons_BedrockCheckbox">Minecraft для Windows</v:String>
 
     <!--#endregion-->
 
@@ -170,11 +171,11 @@
 
     <v:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">НАЛАШТУВАННЯ ЛАУНЧЕРА</v:String>
     <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">НАЛАШТУВАННЯ ЯРЛИКА</v:String>
-    <v:String x:Key="GeneralSettingsScreen_UseBetaLauncher">Використовувати бета-версію лаунчера</v:String>
+    <v:String x:Key="GeneralSettingsScreen_UseBetaLauncher">Використовувати бета-версію лаунчеру</v:String>
     <v:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Не закривати лаунчер під час запуску гри</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Анімувати переходи між сторінками в лаунчері</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Анімувати кнопку &quot;Грати&quot; в ігрових розділах лаунчера</v:String>
-    <v:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">Allow additional checking for new versions directly from the Microsoft Store</v:String>
+    <v:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">Дозволити додаткову перевірку на нові версії безпосередньо з Microsoft Store</v:String>
     
 
     <v:String x:Key="GeneralSettingsScreen_BedrockEditionSettingsSubtitle">НАЛАШТУВАННЯ MINECRAFT: BEDROCK EDITION</v:String>
@@ -184,15 +185,15 @@
 
     <v:String x:Key="GeneralSettingsScreen_SupportCreatorButton">Підтримати автора</v:String>
 
-    <v:String x:Key="GeneralSettingsScreen_BackupsSubtitle">BACKUP OPTIONS</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupsSubtitle">ПАРАМЕТРИ РЕЗЕРВНОГО КОПІЮВАННЯ</v:String>
     <v:String x:Key="GeneralSettingsScreen_BackupButton">Створити резервну копію збережених файлів</v:String>
-    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Backup Save Data (Preview)</v:String>
+    <v:String x:Key="GeneralSettingsScreen_BackupPreviewButton">Резервне копіювання файлів збереження (попередній перегляд)</v:String>
     <!--#endregion-->
     
     <!-- #region VersionsPage -->
 
 
-    <v:String x:Key="VersionsPage_InstallVersion">Install from Local File</v:String>
+    <v:String x:Key="VersionsPage_InstallVersion">Завантажити з локальної теки</v:String>
 
 
     <!--#endregion-->
@@ -223,11 +224,11 @@
 
     <!--#region GeneralSettingsScreen_PathOptions -->
 
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_LauncherOptions_Text">PATH OPTIONS</v:String>
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_PathSubtitle_Text">STORAGE DIRECTORY</v:String>
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_PortableMode_Text">Enable Portable Mode</v:String>
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_RestartButton_Text">Apply &amp; Restart</v:String>
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">* These settings will restart the launcher</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_LauncherOptions_Text">ПАРАМЕТРИ ШЛЯХУ</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_PathSubtitle_Text">КАТАЛОГ ЗБЕРЕЖЕННЯ</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_PortableMode_Text">Увімкнути портативний режим</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_RestartButton_Text">Застосувати та перезапустити</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">* Ці налаштування перезапустять лаунчер</v:String>
 
     <!--#endregion-->
 
@@ -307,13 +308,13 @@
     <!--#region NewProfile -->
 
     <v:String x:Key="NewProfile_GoBackButton">❮ ПОВЕРНУТИСЯ</v:String>
-    <v:String x:Key="NewProfile_ProfileNameHeader">PROFILE NAME</v:String>
-    <v:String x:Key="NewProfile_ProfilePathHeader">PROFILE DIRECTORY</v:String>
+    <v:String x:Key="NewProfile_ProfileNameHeader">НАЗВА ПРОФІЛЮ</v:String>
+    <v:String x:Key="NewProfile_ProfilePathHeader">ТЕКА ПРОФІЛЮ</v:String>
     <v:String x:Key="NewProfile_CreateProfileText_Error">ЦЯ НАЗВА ВЖЕ ВИКОРИСТОВУЄТЬСЯ</v:String>
-    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create profile</v:String>
+    <v:String x:Key="NewProfile_CreateProfileSubTitle">Створити профіль</v:String>
     <v:String x:Key="NewProfile_CreateProfileButton">Створити</v:String>
-    <v:String x:Key="NewProfile_EditProfileButton">Save</v:String>
-    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit profile</v:String>
+    <v:String x:Key="NewProfile_EditProfileButton">Зберегти</v:String>
+    <v:String x:Key="NewProfile_EditProfileSubTitle">Редагувати профіль</v:String>
 
     <!--#endregion-->
 
@@ -323,7 +324,7 @@
     <v:String x:Key="Dialog_Item_Version_Text">версія</v:String>
     <v:String x:Key="Dialog_Item_Profile_Text">профіль</v:String>
 
-    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Delete user data</v:String>
+    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Видалити дані користувача</v:String>
 
     <v:String x:Key="Dialog_DeleteItem_Title">Видалити {0} назавжди</v:String>
     <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Ви дійсно хочете видалити &quot;{1}&quot;?
@@ -341,7 +342,7 @@
     <v:String x:Key="DialogBtn_No_Text">Ні</v:String>
 
     <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsTitle">Немає відповідних результатів</v:String>
-    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">Результати по вашому запиту не знайдені. Якщо у вас вимкнені фільтри, вимкніть їх і спробуйте знову</v:String>
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">Результати за вашим запитом не знайдені. Якщо у вас вимкнені фільтри, вимкніть їх і спробуйте знову</v:String>
 
     <v:String x:Key="Dialog_ResultPanel_Loading_Title">Завантаження...</v:String>
     <v:String x:Key="Dialog_ResultPanel_Loading_Text" xml:space="preserve">Будь ласка, зачекайте!</v:String>
@@ -436,8 +437,8 @@
 
     <!--#region VersionEntries -->
 
-    <v:String x:Key="VersionEntries_LatestPreview">Latest Preview</v:String>
-    <v:String x:Key="VersionEntries_LatestBeta">Latest Beta</v:String>
+    <v:String x:Key="VersionEntries_LatestPreview">Останній попередній перегляд</v:String>
+    <v:String x:Key="VersionEntries_LatestBeta">Остання бета</v:String>
     <v:String x:Key="VersionEntries_LatestRelease">Останній реліз</v:String>
     <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;unnamed installation&gt;</v:String>
 
@@ -447,10 +448,11 @@
 
     <v:String x:Key="ThemeEntries_LatestUpdate">Останнє оновлення</v:String>
     <v:String x:Key="ThemeEntries_Original">Ориґінал</v:String>
-    <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
+    <v:String x:Key="ThemeEntries_Custom">Власний</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Оновлення &quot;Печери та скелі (частина 1)&quot;</v:String>
-    <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
+    <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Печери та скелі (частина 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Оновлення нижнього світу</v:String>
     <v:String x:Key="ThemeEntries_BuzzyBeesUpdate">Оновлення &quot;Гудючі бджоли&quot;</v:String>
     <v:String x:Key="ThemeEntries_VillagePillageUpdate">Оновлення &quot;Селянини та розбійники&quot;</v:String>
@@ -463,7 +465,7 @@
     <v:String x:Key="ThemeEntries_PocketEditionRelease">Офіційний реліз [Bedrock]</v:String>
 
     <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Bedrock &amp; Java (Technoblade)</v:String>
-    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock &amp; Java</v:String>
+    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock та Java</v:String>
 
     <v:String x:Key="ThemeEntries_BedrockStandard">Bedrock Edition Standard</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">Bedrock Edition Master</v:String>
@@ -483,8 +485,9 @@
     <v:String x:Key="GeneralText_Duplicate">Дублювати</v:String>
     <v:String x:Key="GeneralText_Remove">Вилучити</v:String>
     <v:String x:Key="GeneralText_Cancel">Скасувати</v:String>
+    <v:String x:Key="GeneralText_Select">Обрати</v:String>
     <v:String x:Key="GeneralText_Update">Оновити</v:String>
-    <v:String x:Key="GeneralText_Install">Install</v:String>
+    <v:String x:Key="GeneralText_Install">Встановити</v:String>
     <v:String x:Key="GeneralText_Add">Додати</v:String>
     <v:String x:Key="GeneralText_Save">Зберегти</v:String>
     <v:String x:Key="GeneralText_Refresh">Перезавантажити</v:String>
@@ -496,7 +499,8 @@
     <v:String x:Key="GeneralText_No">Ні</v:String>
     <v:String x:Key="GeneralText_Releases">Релізи</v:String>
     <v:String x:Key="GeneralText_Betas">Бети</v:String>
-    <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Previews">Попередні перегляди</v:String>
+    <v:String x:Key="GeneralText_Imported">Імпортовано</v:String>
     <v:String x:Key="GeneralText_Export">Експортувати</v:String>
     <v:String x:Key="GeneralText_Repair">Виправити</v:String>
 
@@ -509,6 +513,7 @@
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">ВЕРСІЇ</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">АРХІТЕКТУРИ</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">ОГЛЯД</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">СКИНУТИ</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">КАТЕГОРІЇ</v:String>

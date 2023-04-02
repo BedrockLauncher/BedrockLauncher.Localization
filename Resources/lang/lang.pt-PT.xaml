@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Nome da instalação</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -450,6 +451,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="ThemeEntries_Original">Original</v:String>
     <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Caves &amp; Cliffs (Parte 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Nether Update</v:String>
@@ -484,6 +486,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Duplicate">Duplicar</v:String>
     <v:String x:Key="GeneralText_Remove">Remover</v:String>
     <v:String x:Key="GeneralText_Cancel">Cancelar</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
     <v:String x:Key="GeneralText_Update">Atualizar</v:String>
     <v:String x:Key="GeneralText_Install">Install</v:String>
     <v:String x:Key="GeneralText_Add">Adicionar</v:String>
@@ -498,6 +501,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Releases">Oficiais</v:String>
     <v:String x:Key="GeneralText_Betas">Experimentais</v:String>
     <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
     <v:String x:Key="GeneralText_Export">Exportar</v:String>
     <v:String x:Key="GeneralText_Repair">Reparar</v:String>
 
@@ -510,6 +514,7 @@ turned off, try turning the back on and search again</v:String>
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">VERSÕES</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">PROCURAR</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">REPOR</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">CATEGORIAS</v:String>

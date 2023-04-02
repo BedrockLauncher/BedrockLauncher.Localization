@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Название установки</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -450,6 +451,7 @@
     <v:String x:Key="ThemeEntries_Original">Оригинальное</v:String>
     <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Обновление &quot;Пещеры и скалы&quot; (часть 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Обновление &quot;Адское&quot;</v:String>
@@ -484,6 +486,7 @@
     <v:String x:Key="GeneralText_Duplicate">Дублировать</v:String>
     <v:String x:Key="GeneralText_Remove">Удалить</v:String>
     <v:String x:Key="GeneralText_Cancel">Отмена</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
     <v:String x:Key="GeneralText_Update">Обновить</v:String>
     <v:String x:Key="GeneralText_Install">Install</v:String>
     <v:String x:Key="GeneralText_Add">Добавить</v:String>
@@ -498,6 +501,7 @@
     <v:String x:Key="GeneralText_Releases">Выпуски</v:String>
     <v:String x:Key="GeneralText_Betas">Бета-версии</v:String>
     <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
     <v:String x:Key="GeneralText_Export">Экспортировать</v:String>
     <v:String x:Key="GeneralText_Repair">Починить</v:String>
 
@@ -510,6 +514,7 @@
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">ВЕРСИИ</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">ОБЗОР</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">СБРОСИТЬ</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">КАТЕГОРИИ</v:String>

@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">Tiada</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Nama pemasangan</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -450,6 +451,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="ThemeEntries_Original">Asal</v:String>
     <v:String x:Key="ThemeEntries_Custom">Tersuai</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Caves &amp; Cliffs (Part 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Nether Update</v:String>
@@ -484,6 +486,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="GeneralText_Duplicate">Buat Salinan</v:String>
     <v:String x:Key="GeneralText_Remove">Hapus</v:String>
     <v:String x:Key="GeneralText_Cancel">Batal</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
     <v:String x:Key="GeneralText_Update">Kemas kini</v:String>
     <v:String x:Key="GeneralText_Install">Pasang</v:String>
     <v:String x:Key="GeneralText_Add">Tambah</v:String>
@@ -498,6 +501,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="GeneralText_Releases">Keluaran</v:String>
     <v:String x:Key="GeneralText_Betas">Beta</v:String>
     <v:String x:Key="GeneralText_Previews">Pratonton</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
     <v:String x:Key="GeneralText_Export">Eksport</v:String>
     <v:String x:Key="GeneralText_Repair">Baiki</v:String>
 
@@ -510,6 +514,7 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">VERSI</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">CARI</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">TETAPKAN SEMULA</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">KATEGORI</v:String>

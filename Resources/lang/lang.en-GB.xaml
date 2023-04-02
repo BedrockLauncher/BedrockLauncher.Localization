@@ -2,7 +2,7 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:ignore="http://www.galasoft.ch/ignore" xmlns:v="clr-namespace:System;assembly=mscorlib">
     <!--#region Main Section-->
 
-    <v:String x:Key="LanguageString">English - United States</v:String>
+    <v:String x:Key="LanguageString">English - United Kingdom</v:String>
 
     <!--#region MainWindow -->
 
@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">None</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Installation name</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -92,9 +93,9 @@
     <v:String x:Key="EditInstallationScreen_CreateButton">Create</v:String>
     <v:String x:Key="EditInstallationScreen_AltCreateButton">Save</v:String>
 
-    <v:String x:Key="EditInstallationScreen_LatestPreview">Latest preview</v:String>
-    <v:String x:Key="EditInstallationScreen_LatestBeta">Latest beta</v:String>
-    <v:String x:Key="EditInstallationScreen_LatestRelease">Latest release</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestPreview">Latest Preview</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestBeta">Latest Beta</v:String>
+    <v:String x:Key="EditInstallationScreen_LatestRelease">Latest Release</v:String>
 
     <v:String x:Key="EditInstallationScreen_NameSubtitle">NAME</v:String>
     <v:String x:Key="EditInstallationScreen_VersionSubtitle">VERSION</v:String>
@@ -310,10 +311,10 @@
     <v:String x:Key="NewProfile_ProfileNameHeader">PROFILE NAME</v:String>
     <v:String x:Key="NewProfile_ProfilePathHeader">PROFILE DIRECTORY</v:String>
     <v:String x:Key="NewProfile_CreateProfileText_Error">THIS NAME IS ALREADY TAKEN</v:String>
-    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create profile</v:String>
+    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create Profile</v:String>
     <v:String x:Key="NewProfile_CreateProfileButton">Create</v:String>
     <v:String x:Key="NewProfile_EditProfileButton">Save</v:String>
-    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit profile</v:String>
+    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit Profile</v:String>
 
     <!--#endregion-->
 
@@ -323,7 +324,7 @@
     <v:String x:Key="Dialog_Item_Version_Text">version</v:String>
     <v:String x:Key="Dialog_Item_Profile_Text">profile</v:String>
 
-    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Delete user data</v:String>
+    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Delete User Data</v:String>
 
     <v:String x:Key="Dialog_DeleteItem_Title">Delete {0} permanently</v:String>
     <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Are you sure you want to delete &quot;{1}&quot;?
@@ -383,11 +384,11 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="Installer_WelcomePage_Info2_Text">It is recommended that you close all other applications before continuing.</v:String>
     <v:String x:Key="Installer_WelcomePage_Info3_Text">Click Next to continue, or Cancel to exit Setup.</v:String>
 
-    <v:String x:Key="Installer_LicenseAgreement_Title">License Agreement</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Info_Text">Please read the following License Agreement. You must accept the terms of this</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Title">Licence Agreement</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info_Text">Please read the following Licence Agreement. You must accept the terms of this</v:String>
     <v:String x:Key="Installer_LicenseAgreement_Info2_Text">agreement before continuing with the installation.</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Accept_Text">I accept the license.</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">I don't accept the license.</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Accept_Text">I accept the licence.</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">I don't accept the licence.</v:String>
 
     <v:String x:Key="Installer_InstallType_Title">Choose Install Type</v:String>
     <v:String x:Key="Installer_InstallType_Info_Text">Select which version of the launcher you want to download</v:String>
@@ -408,7 +409,7 @@ turned off, try turning the back on and search again</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_LaunchOnExit_Text">Start Program on Exit</v:String>
 
-    <v:String x:Key="Installer_InstallationProgress_FilesInUse">Some of the files are currently in use by the following:</v:String>
+    <v:String x:Key="Installer_InstallationProgress_FilesInUse">Some files are currently in use by the following:</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_Title">Installing</v:String>
     <v:String x:Key="Installer_InstallationProgress_Info_Text">Please wait while Setup installs Minecraft Bedrock Launcher on your computer.</v:String>
@@ -450,6 +451,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="ThemeEntries_Original">Original</v:String>
     <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Caves &amp; Cliffs (Part 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Nether Update</v:String>
@@ -457,7 +459,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="ThemeEntries_VillagePillageUpdate">Village &amp; Pillage Update</v:String>
     <v:String x:Key="ThemeEntries_UpdateAquatic">Update Aquatic</v:String>
     <v:String x:Key="ThemeEntries_TechnicallyUpdated">Technically Updated [Java]</v:String>
-    <v:String x:Key="ThemeEntries_WorldOfColorUpdate">World of Color Update [Java]</v:String>
+    <v:String x:Key="ThemeEntries_WorldOfColorUpdate">World of Colour Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_ExplorationUpdate">Exploration Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_CombatUpdate">Combat Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_CatsAndPandasUpdate">Cats &amp; Pandas [Bedrock]</v:String>
@@ -469,7 +471,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="ThemeEntries_BedrockStandard">Bedrock Edition Standard</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">Bedrock Edition Master</v:String>
     <v:String x:Key="ThemeEntries_EarlyLegacyConsole">Original Legacy Console Era</v:String>
-    <v:String x:Key="ThemeEntries_MidLegacyConsole">Mid Legacy Console Era</v:String>
+    <v:String x:Key="ThemeEntries_MidLegacyConsole">Mid-Legacy Console Era</v:String>
     <v:String x:Key="ThemeEntries_LateLegacyConsole">Late Legacy Console Era</v:String>
     <v:String x:Key="ThemeEntries_IndieDays">Indie Days</v:String>
     <v:String x:Key="ThemeEntries_Dungeons">Minecraft Dungeons</v:String>
@@ -484,6 +486,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Duplicate">Duplicate</v:String>
     <v:String x:Key="GeneralText_Remove">Remove</v:String>
     <v:String x:Key="GeneralText_Cancel">Cancel</v:String>
+    <v:String x:Key="GeneralText_Select">Select</v:String>
     <v:String x:Key="GeneralText_Update">Update</v:String>
     <v:String x:Key="GeneralText_Install">Install</v:String>
     <v:String x:Key="GeneralText_Add">Add</v:String>
@@ -498,6 +501,7 @@ turned off, try turning the back on and search again</v:String>
     <v:String x:Key="GeneralText_Releases">Releases</v:String>
     <v:String x:Key="GeneralText_Betas">Betas</v:String>
     <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Imported</v:String>
     <v:String x:Key="GeneralText_Export">Export</v:String>
     <v:String x:Key="GeneralText_Repair">Repair</v:String>
 
@@ -510,6 +514,7 @@ turned off, try turning the back on and search again</v:String>
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">VERSIONS</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITECTURES</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">BROWSE</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">RESET</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">CATEGORIES</v:String>

@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">无</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">配置名称</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">版本文本</v:String>
 
     <!--#endregion-->
 
@@ -192,7 +193,7 @@
     <!-- #region VersionsPage -->
 
 
-    <v:String x:Key="VersionsPage_InstallVersion">Install from Local File</v:String>
+    <v:String x:Key="VersionsPage_InstallVersion">从本地文件安装</v:String>
 
 
     <!--#endregion-->
@@ -307,13 +308,13 @@
     <!--#region NewProfile -->
 
     <v:String x:Key="NewProfile_GoBackButton">❮ 返回</v:String>
-    <v:String x:Key="NewProfile_ProfileNameHeader">PROFILE NAME</v:String>
-    <v:String x:Key="NewProfile_ProfilePathHeader">PROFILE DIRECTORY</v:String>
+    <v:String x:Key="NewProfile_ProfileNameHeader">配置名称</v:String>
+    <v:String x:Key="NewProfile_ProfilePathHeader">配置目录</v:String>
     <v:String x:Key="NewProfile_CreateProfileText_Error">此名称已存在</v:String>
-    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create profile</v:String>
+    <v:String x:Key="NewProfile_CreateProfileSubTitle">创建配置</v:String>
     <v:String x:Key="NewProfile_CreateProfileButton">创建</v:String>
-    <v:String x:Key="NewProfile_EditProfileButton">Save</v:String>
-    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit profile</v:String>
+    <v:String x:Key="NewProfile_EditProfileButton">保存</v:String>
+    <v:String x:Key="NewProfile_EditProfileSubTitle">编辑配置</v:String>
 
     <!--#endregion-->
 
@@ -448,10 +449,11 @@
 
     <v:String x:Key="ThemeEntries_LatestUpdate">最新更新</v:String>
     <v:String x:Key="ThemeEntries_Original">原版</v:String>
-    <v:String x:Key="ThemeEntries_Custom">Custom</v:String>
+    <v:String x:Key="ThemeEntries_Custom">自定义</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">洞穴与山崖（第一部分）</v:String>
-    <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
+    <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">洞穴与山崖（第二部分）</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">下界更新</v:String>
     <v:String x:Key="ThemeEntries_BuzzyBeesUpdate">嗡嗡蜂群更新</v:String>
     <v:String x:Key="ThemeEntries_VillagePillageUpdate">村庄与掠夺更新</v:String>
@@ -463,8 +465,8 @@
     <v:String x:Key="ThemeEntries_CatsAndPandasUpdate">猫与熊猫 [Bedrock]</v:String>
     <v:String x:Key="ThemeEntries_PocketEditionRelease">正式发布 [Bedrock]</v:String>
 
-    <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">Bedrock &amp; Java (Technoblade)</v:String>
-    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">Bedrock &amp; Java</v:String>
+    <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">基岩版与 Java 版（Technoblade）</v:String>
+    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">基岩版与 Java 版</v:String>
 
     <v:String x:Key="ThemeEntries_BedrockStandard">基岩版标准</v:String>
     <v:String x:Key="ThemeEntries_BedrockMaster">基岩版大师</v:String>
@@ -484,8 +486,9 @@
     <v:String x:Key="GeneralText_Duplicate">复制</v:String>
     <v:String x:Key="GeneralText_Remove">移除</v:String>
     <v:String x:Key="GeneralText_Cancel">取消</v:String>
+    <v:String x:Key="GeneralText_Select">选择</v:String>
     <v:String x:Key="GeneralText_Update">更新</v:String>
-    <v:String x:Key="GeneralText_Install">Install</v:String>
+    <v:String x:Key="GeneralText_Install">安装</v:String>
     <v:String x:Key="GeneralText_Add">添加</v:String>
     <v:String x:Key="GeneralText_Save">保存</v:String>
     <v:String x:Key="GeneralText_Refresh">刷新</v:String>
@@ -498,6 +501,7 @@
     <v:String x:Key="GeneralText_Releases">发布版</v:String>
     <v:String x:Key="GeneralText_Betas">测试版</v:String>
     <v:String x:Key="GeneralText_Previews">预览版</v:String>
+    <v:String x:Key="GeneralText_Imported">导入的版本</v:String>
     <v:String x:Key="GeneralText_Export">导出</v:String>
     <v:String x:Key="GeneralText_Repair">修理</v:String>
 
@@ -510,6 +514,7 @@
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">版本</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">架构</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">浏览</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">重置</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">分类</v:String>

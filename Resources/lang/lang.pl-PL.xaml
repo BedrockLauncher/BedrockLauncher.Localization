@@ -81,6 +81,7 @@
     <v:String x:Key="InstallationsPage_SortBy_None">Żadne</v:String>
 
     <v:String x:Key="InstallationsPage_SearchBar_Content">Nazwa instalacji</v:String>
+    <v:String x:Key="InstallationVersionSelect_SearchBar_Content">Version text</v:String>
 
     <!--#endregion-->
 
@@ -100,7 +101,7 @@
     <v:String x:Key="EditInstallationScreen_VersionSubtitle">WERSJA</v:String>
     <v:String x:Key="EditInstallationScreen_DirectorySubtitle">KATALOG</v:String>
 
-    <v:String x:Key="EditInstallationScreen_NameHintText">&lt;unnamed installation&gt;</v:String>
+    <v:String x:Key="EditInstallationScreen_NameHintText">&lt;instalacja bez nazwy&gt;</v:String>
     <v:String x:Key="EditInstallationScreen_DirectoryHintText">&lt;default path&gt;</v:String>
 
     <!--#endregion-->
@@ -440,7 +441,7 @@ są wyłączone, włącz je i spróbuj ponownie</v:String>
     <v:String x:Key="VersionEntries_LatestPreview">Najnowsza wersja poglądowa</v:String>
     <v:String x:Key="VersionEntries_LatestBeta">Najnowsza wersja beta</v:String>
     <v:String x:Key="VersionEntries_LatestRelease">Najnowsze wydanie</v:String>
-    <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;unnamed installation&gt;</v:String>
+    <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;instalacja bez nazwy&gt;</v:String>
 
     <!--#endregion-->
 
@@ -450,12 +451,13 @@ są wyłączone, włącz je i spróbuj ponownie</v:String>
     <v:String x:Key="ThemeEntries_Original">Oryginalny</v:String>
     <v:String x:Key="ThemeEntries_Custom">Własne</v:String>
 
+    <v:String x:Key="ThemeEntries_TheWildUpdate">The Wild Update</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart1Update">Caves &amp; Cliffs (Part 1)</v:String>
     <v:String x:Key="ThemeEntries_CavesAndCliffsPart2Update">Caves &amp; Cliffs (Part 2)</v:String>
     <v:String x:Key="ThemeEntries_NetherUpdate">Nether Update</v:String>
-    <v:String x:Key="ThemeEntries_BuzzyBeesUpdate">Buzzy Bees Update</v:String>
+    <v:String x:Key="ThemeEntries_BuzzyBeesUpdate">Bzyczące Pszczoły</v:String>
     <v:String x:Key="ThemeEntries_VillagePillageUpdate">Village &amp; Pillage Update</v:String>
-    <v:String x:Key="ThemeEntries_UpdateAquatic">Update Aquatic</v:String>
+    <v:String x:Key="ThemeEntries_UpdateAquatic">Aktualizacja Wodna</v:String>
     <v:String x:Key="ThemeEntries_TechnicallyUpdated">Technically Updated [Java]</v:String>
     <v:String x:Key="ThemeEntries_WorldOfColorUpdate">World of Color Update [Java]</v:String>
     <v:String x:Key="ThemeEntries_ExplorationUpdate">Exploration Update [Java]</v:String>
@@ -484,6 +486,7 @@ są wyłączone, włącz je i spróbuj ponownie</v:String>
     <v:String x:Key="GeneralText_Duplicate">Duplikuj</v:String>
     <v:String x:Key="GeneralText_Remove">Usuń</v:String>
     <v:String x:Key="GeneralText_Cancel">Anuluj</v:String>
+    <v:String x:Key="GeneralText_Select">Wybierz</v:String>
     <v:String x:Key="GeneralText_Update">Aktualizuj</v:String>
     <v:String x:Key="GeneralText_Install">Zainstaluj</v:String>
     <v:String x:Key="GeneralText_Add">Dodaj</v:String>
@@ -498,6 +501,7 @@ są wyłączone, włącz je i spróbuj ponownie</v:String>
     <v:String x:Key="GeneralText_Releases">Wydania</v:String>
     <v:String x:Key="GeneralText_Betas">Beta</v:String>
     <v:String x:Key="GeneralText_Previews">Previews</v:String>
+    <v:String x:Key="GeneralText_Imported">Zaimportowane</v:String>
     <v:String x:Key="GeneralText_Export">Eksportuj</v:String>
     <v:String x:Key="GeneralText_Repair">Napraw</v:String>
 
@@ -510,6 +514,7 @@ są wyłączone, włącz je i spróbuj ponownie</v:String>
     <!--#region GeneralSubtitles -->
 
     <v:String x:Key="GeneralSubtitles_Versions">WERSJE</v:String>
+    <v:String x:Key="GeneralSubtitles_Architectures">ARCHITEKTURY</v:String>
     <v:String x:Key="GeneralSubtitles_Browse">PRZEGLĄDAJ</v:String>
     <v:String x:Key="GeneralSubtitles_Reset">WYZERUJ</v:String>
     <v:String x:Key="GeneralSubtitles_Categories">KATEGORIE</v:String>
