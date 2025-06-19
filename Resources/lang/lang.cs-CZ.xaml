@@ -74,8 +74,8 @@
     <!--#region CreatorToolsPage -->
 
     <v:String x:Key="CreatorToolsPage_Editor">Bedrock Editor</v:String>
-    <v:String x:Key="CreatorToolsPage_Slogan">Create stunning worlds at scale</v:String>
-    <v:String x:Key="CreatorToolsPage_PlayEditorButton">Launch Editor</v:String>
+    <v:String x:Key="CreatorToolsPage_Slogan">Vytvářejte ohromující světy v jakékoliv velikosti</v:String>
+    <v:String x:Key="CreatorToolsPage_PlayEditorButton">Spustit Bedrock Editor</v:String>
 
     <!--#endregion-->
 
@@ -179,7 +179,7 @@
 
     <v:String x:Key="GeneralSettingsScreen_LauncherSettingsSubtitle">NASTAVENÍ SPOUŠTĚČE</v:String>
     <v:String x:Key="GeneralSettingsScreen_ShortcutSettingsSubtitle">NASTAVENÍ ZKRATEK</v:String>
-    <v:String x:Key="GeneralSettingsScreen_KeepAppx">Keep Appx Package</v:String>
+    <v:String x:Key="GeneralSettingsScreen_KeepAppx">Ponechat balíček Appx</v:String>
     <v:String x:Key="GeneralSettingsScreen_KeepLauncherOpen">Ponechat Spouštěč otevřený i během spuštěné hry</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimateTransitions">Animovat přechody mezi stránkami ve Spouštěči</v:String>
     <v:String x:Key="GeneralSettingsScreen_AnimatePlayButton">Animovat tlačítko hrát na stránkách Hrát ve Spouštěči</v:String>
@@ -236,7 +236,7 @@
     <v:String x:Key="GeneralSettingsScreen_PathOptions_PathSubtitle_Text">ADRESÁŘ S ULOŽENÝMI SOUBORY</v:String>
     <v:String x:Key="GeneralSettingsScreen_PathOptions_PortableMode_Text">Povolit Přenosný Režim</v:String>
     <v:String x:Key="GeneralSettingsScreen_PathOptions_RestartButton_Text">Použít a Restartovat</v:String>
-    <v:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">* These settings will restart the launcher</v:String>
+    <v:String x:Key="GeneralSettingsScreen_PathOptions_Notice_Text">* Tato nastavení restartují spouštěč</v:String>
 
     <!--#endregion-->
 
@@ -251,15 +251,15 @@
     <v:String x:Key="FirstLaunch_CreateProfileSubTitle">Vytvořte svůj první profil!</v:String>
     <v:String x:Key="FirstLaunch_AlmostThereTitle">Téměř hotovo!</v:String>
     <v:String x:Key="FirstLaunch_OneThingTitle">Jedna maličkost...</v:String>
-    <v:String x:Key="FirstLaunch_OneThingSubtitle">Just check over these to make sure they're just how you like it.</v:String>
-    <v:String x:Key="FirstLaunch_ChooseAccountTitle">Choose an Insider Account</v:String>
-    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* This will be used to verify and download betas. You must be opted in the Xbox Insider Hub for the selected account to download betas. You also may need to restart the launcher or uninstall Minecraft for downloading betas to work.</v:String>
+    <v:String x:Key="FirstLaunch_OneThingSubtitle">Jen se na ně podívejte a ujistěte se, že je takto chcete.</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountTitle">Vyberte Insider Účet</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* Toto bude použito k ověření a stažení beta verzí. Tímto účtem musíte být zapsáni v Xbox Insider Hub, aby se mohly stáhnout beta verze. Možná budete muset restartovat spouštěč nabo odinstalovat Minecraft, aby stahování beta verzí fungovalo.</v:String>
 
-    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Before using, it is highly recommended that you press backup to create an installation of your existing save data as the launcher does replace the original directory with a symbolic link which allows us to redirect save data.
+    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">Před použitím doporučujeme stisknout tlačítko „Zálohovat“, abyste vytvořili zálohu vašich uložených dat, protože launcher nahradí původní adresář symbolickým odkazem, který nám umožňuje přesměrovat data uložení.
 
- (Don't worry, you will not lose your data by doing this, you will only lose data if you press play and haven't backed your stuff up)</v:String>
+ (Nemějte obavy, tím neztratíte svá data, data ztratíte pouze pokud stisknete tlačítko „Hrát“ aniž byste vytvořili zálohu)</v:String>
 
-    <v:String x:Key="FirstLaunch_InstallType_Header">Save/Load Launcher Data From:</v:String>
+    <v:String x:Key="FirstLaunch_InstallType_Header">Uložit/Načíst Data Spouštěče Z:</v:String>
     <v:String x:Key="FirstLaunch_FixedInstall_Checkbox">Pevná Složka (Doporučeno)</v:String>
     <v:String x:Key="FirstLaunch_PortableInstall_Checkbox">Přenosná/Kořenová Složka</v:String>
     <v:String x:Key="FirstLaunch_BackupCheckBox_Text">Zálohovat Existující Úložná Data</v:String>
@@ -290,11 +290,11 @@
     <v:String x:Key="Error_AuthenticationFailed_Title">Ověřování selhalo</v:String>
     <v:String x:Key="Error_AuthenticationFailed">Ověření se nezdařilo. Ujistěte se prosím, že je váš účet přihlášený k beta programu.</v:String>
 
-    <v:String x:Key="Error_AppReregisterFailed_Title">App registration failed</v:String>
+    <v:String x:Key="Error_AppReregisterFailed_Title">Registrace aplikace se nezdařila</v:String>
     <v:String x:Key="Error_AppReregisterFailed">Prosím, zkuste to znovu :(</v:String>
 
-    <v:String x:Key="Error_AppDeregisteringFailed_Title">App de-registration failed</v:String>
-    <v:String x:Key="Error_AppDeregisteringFailed">Please try again :(</v:String>
+    <v:String x:Key="Error_AppDeregisteringFailed_Title">Zrušení registrace aplikace se nezdařilo</v:String>
+    <v:String x:Key="Error_AppDeregisteringFailed">Zkuste to, prosím, znovu :(</v:String>
 
     <v:String x:Key="Error_AppLaunchFailed_Title">Spuštění se nezdařilo</v:String>
     <v:String x:Key="Error_AppLaunchFailed">Prosím, zkuste to znovu :(</v:String>
@@ -302,71 +302,70 @@
     <v:String x:Key="Error_AppDownloadFailed_Title">Stahování se nezdařilo</v:String>
     <v:String x:Key="Error_AppDownloadFailed">Prosím, zkuste to znovu :(</v:String>
 
-    <v:String x:Key="Error_SaveDirectoryRedirectionFailed_Title">Save redirection failed</v:String>
-    <v:String x:Key="Error_SaveDirectoryRedirectionFailed">Please try again :(</v:String>
+    <v:String x:Key="Error_SaveDirectoryRedirectionFailed_Title">Přesměrování ukládání dat se nezdařilo</v:String>
+    <v:String x:Key="Error_SaveDirectoryRedirectionFailed">Zkuste to, prosím, znovu :(</v:String>
 
-    <v:String x:Key="Error_AppUninstallFailed_Title">Uninstall failed</v:String>
-    <v:String x:Key="Error_AppUninstallFailed">Please try again :(</v:String>
+    <v:String x:Key="Error_AppUninstallFailed_Title">Odinstalace se nezdařila</v:String>
+    <v:String x:Key="Error_AppUninstallFailed">Zkuste to, prosím, znovu :(</v:String>
 
-    <v:String x:Key="Error_AppExtractionFailed_Title">Extraction failed</v:String>
-    <v:String x:Key="Error_AppExtractionFailed">Please try again :(</v:String>
+    <v:String x:Key="Error_AppExtractionFailed_Title">Extrahování se nezdařilo</v:String>
+    <v:String x:Key="Error_AppExtractionFailed">Zkuste to, prosím, znovu :(</v:String>
 
     <!--#endregion-->
 
     <!--#region NewProfile -->
 
-    <v:String x:Key="NewProfile_GoBackButton">❮ GO BACK</v:String>
-    <v:String x:Key="NewProfile_ProfileNameHeader">PROFILE NAME</v:String>
-    <v:String x:Key="NewProfile_ProfilePathHeader">PROFILE DIRECTORY</v:String>
-    <v:String x:Key="NewProfile_CreateProfileText_Error">THIS NAME IS ALREADY TAKEN</v:String>
-    <v:String x:Key="NewProfile_CreateProfileSubTitle">Create profile</v:String>
-    <v:String x:Key="NewProfile_CreateProfileButton">Create</v:String>
-    <v:String x:Key="NewProfile_EditProfileButton">Save</v:String>
-    <v:String x:Key="NewProfile_EditProfileSubTitle">Edit profile</v:String>
+    <v:String x:Key="NewProfile_GoBackButton">&lt; ZPĚT</v:String>
+    <v:String x:Key="NewProfile_ProfileNameHeader">NÁZEV PROFILU</v:String>
+    <v:String x:Key="NewProfile_ProfilePathHeader">ADRESÁŘ PROFILU</v:String>
+    <v:String x:Key="NewProfile_CreateProfileText_Error">TOTO JMÉNO JE JIŽ POUŽÍVÁNO</v:String>
+    <v:String x:Key="NewProfile_CreateProfileSubTitle">Vytvořit nový profil</v:String>
+    <v:String x:Key="NewProfile_CreateProfileButton">Vytvořit</v:String>
+    <v:String x:Key="NewProfile_EditProfileButton">Uložit</v:String>
+    <v:String x:Key="NewProfile_EditProfileSubTitle">Upravit profil</v:String>
 
     <!--#endregion-->
 
     <!--#region Dialog -->
 
-    <v:String x:Key="Dialog_Item_Installation_Text">installation</v:String>
-    <v:String x:Key="Dialog_Item_Version_Text">version</v:String>
-    <v:String x:Key="Dialog_Item_Profile_Text">profile</v:String>
+    <v:String x:Key="Dialog_Item_Installation_Text">instalace</v:String>
+    <v:String x:Key="Dialog_Item_Version_Text">verze</v:String>
+    <v:String x:Key="Dialog_Item_Profile_Text">profil</v:String>
 
-    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Delete user data</v:String>
+    <v:String x:Key="Dialog_Item_Optional_DeleteInstallationData">Odstranit data uživatele</v:String>
 
-    <v:String x:Key="Dialog_DeleteItem_Title">Delete {0} permanently</v:String>
-    <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Are you sure you want to delete &quot;{1}&quot;?
-This {0} will be lost forever! (A long time!)</v:String>
+    <v:String x:Key="Dialog_DeleteItem_Title">Smazat {0} natrvalo</v:String>
+    <v:String x:Key="Dialog_DeleteItem_Text" xml:space="preserve">Opravdu chcete odstranit &quot;{1}&quot;? Tento {0} bude navždy ztracen! (Na fakt dlouho!)</v:String>
 
-    <v:String x:Key="Dialog_KillGame_Title">Kill Game</v:String>
-    <v:String x:Key="Dialog_KillGame_Text">This is Dangerous, and is only recommended if you get stuck. Do you still want to close the game?</v:String>
+    <v:String x:Key="Dialog_KillGame_Title">Ukončit Hru</v:String>
+    <v:String x:Key="Dialog_KillGame_Text">Toto je Nebezpečné a doporučené pouze pokud se zaseknete. Chcete opravdu zavřít hru?</v:String>
 
-    <v:String x:Key="Dialog_CloseGame_Title">Game is Still Running</v:String>
-    <v:String x:Key="Dialog_CloseGame_Text">Would you like to force close it? (without saving changes, this is only recommended if you get stuck, please close the game normally)</v:String>
+    <v:String x:Key="Dialog_CloseGame_Title">Hra Stále Běží</v:String>
+    <v:String x:Key="Dialog_CloseGame_Text">Chcete vynutit zavření? (bez uložení změn, doporučeno pouze pokud se zaseknete; prosím, zavřete hru normálně)</v:String>
 
-    <v:String x:Key="DialogBtn_YesToAll_Text">Yes To All</v:String>
-    <v:String x:Key="DialogBtn_NoToAll_Text">No To All</v:String>
-    <v:String x:Key="DialogBtn_Yes_Text">Yes</v:String>
-    <v:String x:Key="DialogBtn_No_Text">No</v:String>
+    <v:String x:Key="DialogBtn_YesToAll_Text">Ano Pro Všechny</v:String>
+    <v:String x:Key="DialogBtn_NoToAll_Text">Ne Pro Všechny</v:String>
+    <v:String x:Key="DialogBtn_Yes_Text">Ano</v:String>
+    <v:String x:Key="DialogBtn_No_Text">Ne</v:String>
 
-    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsTitle">No matching results</v:String>
-    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">We couldn't find news any content matching your search. If you have category filters 
-turned off, try turning the back on and search again</v:String>
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsTitle">Žádné odpovídající výsledky</v:String>
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">Nemohli jsme najít novinky odpovídající vašemu hledání. Pokud máte 
+filtry kategorií, zkuste je znovu zapnout a vyhledávat</v:String>
 
-    <v:String x:Key="Dialog_ResultPanel_Loading_Title">Loading...</v:String>
-    <v:String x:Key="Dialog_ResultPanel_Loading_Text" xml:space="preserve">Please wait!</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Loading_Title">Načítání...</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Loading_Text" xml:space="preserve">Čekejte prosím!</v:String>
 
-    <v:String x:Key="Dialog_ResultPanel_Error_Title">Error</v:String>
+    <v:String x:Key="Dialog_ResultPanel_Error_Title">Chyba</v:String>
     <v:String x:Key="Dialog_ResultPanel_Error_Text" xml:space="preserve">:(</v:String>
 
-    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsTitle">No result</v:String>
-    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsText" xml:space="preserve">Found no items matching your search</v:String>
+    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsTitle">Žádný výsledek</v:String>
+    <v:String x:Key="Dialog_NoContentFound_NoMatchingResultsText" xml:space="preserve">Nebyly nalezeny žádné položky odpovídající vašemu hledání</v:String>
 
     <!--#endregion-->
 
     <!--#region Internal -->
 
-    <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">The file {0} already exists in the destination.\nDo you want to replace it? The old file will be lost otherwise.</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">Soubor {0} již existuje v daném umístění.\nChcete jej nahradit? Starý soubor bude v opačném případě ztracen.</v:String>
     <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">Soubor {0} není adresář. Chcete jej odstranit? Data ze starého adresáře budou v opačném případě ztracena.</v:String>
 
     <v:String x:Key="GameManager_RecoveringDataIssue_Title">Konvertuji Existující Úložná Data na Instalaci</v:String>
@@ -446,7 +445,7 @@ turned off, try turning the back on and search again</v:String>
 
     <!--#region VersionEntries -->
 
-    <v:String x:Key="VersionEntries_LatestPreview">Latest Preview</v:String>
+    <v:String x:Key="VersionEntries_LatestPreview">Nejnovější preview</v:String>
     <v:String x:Key="VersionEntries_LatestBeta">Nejnovější beta</v:String>
     <v:String x:Key="VersionEntries_LatestRelease">Nejnovější Vydání</v:String>
     <v:String x:Key="VersionEntries_UnnamedInstallation">&lt;nepojmenovaná instalace&gt;</v:String>
