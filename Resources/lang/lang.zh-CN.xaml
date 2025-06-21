@@ -154,7 +154,7 @@
 
     <v:String x:Key="NewsScreen_JavaNDungeons_JavaCheckbox">我的世界：Java版</v:String>
     <v:String x:Key="NewsScreen_JavaNDungeons_DungeonsCheckbox">我的世界 地下城</v:String>
-    <v:String x:Key="NewsScreen_JavaNDungeons_BedrockCheckbox">我的世界 Windows版</v:String>
+    <v:String x:Key="NewsScreen_JavaNDungeons_Checkbox">我的世界 Windows版</v:String>
 
     <!--#endregion-->
 
@@ -186,7 +186,7 @@
     <v:String x:Key="GeneralSettingsScreen_FetchVersionsFromMicrosoftStore">允许额外直接从 Microsoft Store 检查新版本</v:String>
     
 
-    <v:String x:Key="GeneralSettingsScreen_BedrockEditionSettingsSubtitle">我的世界：基岩版 设置</v:String>
+    <v:String x:Key="GeneralSettingsScreen_EditionSettingsSubtitle">我的世界：基岩版设置</v:String>
     <v:String x:Key="GeneralSettingsScreen_SupportCreatorSubtitle">支持创作者</v:String>
 
     <v:String x:Key="GeneralSettingsScreen_UpdatesSubtitle">启动器更新</v:String>
@@ -251,11 +251,11 @@
     <v:String x:Key="FirstLaunch_CreateProfileSubTitle">创建您的第一个档案</v:String>
     <v:String x:Key="FirstLaunch_AlmostThereTitle">即将完成！</v:String>
     <v:String x:Key="FirstLaunch_OneThingTitle">有一件事需要提醒...</v:String>
-    <v:String x:Key="FirstLaunch_OneThingSubtitle">只需检查这些以确保它们正在按您喜欢的方式运作。</v:String>
+    <v:String x:Key="FirstLaunch_OneThingSubtitle">只需检查这些以确保它们正在按您喜欢的方式运作</v:String>
     <v:String x:Key="FirstLaunch_ChooseAccountTitle">选择一个 Insider 账户</v:String>
-    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* 这将用于验证和下载测试版。您必须在 Xbox Insider Hub 将所选帐户参与到预览体验计划中才能下载测试版。您可能还需要重新启动启动器或卸载我的世界才能正常下载到测试版。</v:String>
+    <v:String x:Key="FirstLaunch_ChooseAccountSubtitle">* 这将用于验证和下载测试版，您必须在 Xbox Insider Hub 将所选帐户参与到预览体验计划中才能下载测试版；您可能还需要重新启动启动器或卸载我的世界才能正常下载到测试版</v:String>
 
-    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">在使用前， 强烈建议您按下“备份”按钮以创建一个使用现有存档数据的配置，因为启动器将用符号链接替换掉原始目录，这样能更方便地使我们重定向各个版本的存档数据。
+    <v:String x:Key="FirstLaunch_BeforeStartingToUse" xml:space="preserve">在使用前， 强烈建议您按下“备份”按钮以创建一个使用现有存档数据的配置，因为启动器将用符号链接替换掉原始目录，这样能更方便地使我们重定向各个版本的存档数据
 
 （别担心，这样做并不会丢失数据，只有在未对内容进行备份按时下“开始游戏”才会丢失数据）</v:String>
 
@@ -279,7 +279,7 @@
 
     <v:String x:Key="ErrorScreen_Title">错误</v:String>
     <v:String x:Key="ErrorScreen_SubTitle">启动器崩溃</v:String>
-    <v:String x:Key="ErrorScreen_DefaultErrorMessage">一个未知的错误导致了启动器崩溃。很抱歉为您带来了不便。</v:String>
+    <v:String x:Key="ErrorScreen_DefaultErrorMessage">一个未知的错误导致了启动器崩溃，很抱歉为您带来了不便</v:String>
     <v:String x:Key="ErrorScreen_CloseButton">关闭</v:String>
     <v:String x:Key="ErrorScreen_ViewCrash">查看错误报告</v:String>
 
@@ -288,7 +288,7 @@
     <!--#region Errors -->
 
     <v:String x:Key="Error_AuthenticationFailed_Title">认证失败</v:String>
-    <v:String x:Key="Error_AuthenticationFailed">认证失败。请确保您的账户订阅了测试版计划。</v:String>
+    <v:String x:Key="Error_AuthenticationFailed">认证失败，请确保您的账户订阅了测试版计划</v:String>
 
     <v:String x:Key="Error_AppReregisterFailed_Title">应用注册失败</v:String>
     <v:String x:Key="Error_AppReregisterFailed">请重试 :(</v:String>
@@ -339,7 +339,7 @@
 此{0}将永远丢失！（很长时间！）</v:String>
 
     <v:String x:Key="Dialog_KillGame_Title">终止游戏</v:String>
-    <v:String x:Key="Dialog_KillGame_Text">该操作十分危险，且只有在游戏无响应时才推荐您执行。您仍然想要关闭游戏吗？</v:String>
+    <v:String x:Key="Dialog_KillGame_Text">该操作十分危险，且只有在游戏无响应时才推荐您执行 您仍然想要关闭游戏吗？</v:String>
 
     <v:String x:Key="Dialog_CloseGame_Title">游戏仍在运行中</v:String>
     <v:String x:Key="Dialog_CloseGame_Text">您想要强制关闭吗？（不会保存您的更改，只在游戏无响应使用该功能，否则请正常关闭游戏）</v:String>
@@ -350,7 +350,7 @@
     <v:String x:Key="DialogBtn_No_Text">否</v:String>
 
     <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsTitle">没有匹配的结果</v:String>
-    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">我们找不到任何与您搜索内容相匹配的新闻。如果您设置了类别过滤器 
+    <v:String x:Key="Dialog_NoNewsContentFound_NoMatchingResultsText" xml:space="preserve">我们找不到任何与您搜索内容相匹配的新闻 如果您设置了类别过滤器 
 请将其关闭，尝试返回并重新搜索</v:String>
 
     <v:String x:Key="Dialog_ResultPanel_Loading_Title">正在加载......</v:String>
@@ -366,8 +366,8 @@
 
     <!--#region Internal -->
 
-    <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">文件 {0} 已经存在于目标文件夹。\n您想要替换它吗？否则旧文件将会丢失。</v:String>
-    <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">文件 {0} 不是一个目录。您想要删除它吗？否则旧目录中的数据将会丢失。</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_FileNotExistant_Text">文件 {0} 已经存在于目标文件夹\n您想要替换它吗？否则旧文件将会丢失</v:String>
+    <v:String x:Key="GameManager_RecoveringDataIssue_NotaDirectory_Text">文件 {0} 不是一个目录，您想要删除它吗？否则旧目录中的数据将会丢失</v:String>
 
     <v:String x:Key="GameManager_RecoveringDataIssue_Title">正在将现有的存档数据转换为配置</v:String>
 
@@ -388,15 +388,15 @@
     <v:String x:Key="Installer_Finish_Text">完成</v:String>
 
     <v:String x:Key="Installer_WelcomePage_Title">欢迎使用我的世界基岩启动器安装向导</v:String>
-    <v:String x:Key="Installer_WelcomePage_Info_Text">这将在您的计算机上安装我的世界基岩启动器。</v:String>
-    <v:String x:Key="Installer_WelcomePage_Info2_Text">建议您在继续之前关闭所有其他应用程序。</v:String>
-    <v:String x:Key="Installer_WelcomePage_Info3_Text">单击“下一步”继续，或单击“取消”退出安装程序。</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info_Text">这将在您的计算机上安装我的世界基岩启动器</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info2_Text">建议您在继续之前关闭所有其他应用程序</v:String>
+    <v:String x:Key="Installer_WelcomePage_Info3_Text">单击“下一步”继续，或单击“取消”退出安装程序</v:String>
 
     <v:String x:Key="Installer_LicenseAgreement_Title">许可协议</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Info_Text">请阅读以下许可协议。您必须接受此条款</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Info2_Text">请在继续安装之前同意协议。</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_Accept_Text">我接受该许可。</v:String>
-    <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">我不接受该许可。</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info_Text">请阅读以下许可协议，您必须接受此条款</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Info2_Text">请在继续安装之前同意协议</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_Accept_Text">我接受该许可</v:String>
+    <v:String x:Key="Installer_LicenseAgreement_DontAccept_Text">我不接受该许可</v:String>
 
     <v:String x:Key="Installer_InstallType_Title">选择安装类型</v:String>
     <v:String x:Key="Installer_InstallType_Info_Text">请选择要下载的启动器的版本</v:String>
@@ -405,8 +405,8 @@
     <v:String x:Key="Installer_InstallType_InstallLocation_ReleaseRadioButton_Text">发布版本</v:String>
 
     <v:String x:Key="Installer_InstallLocation_Title">选择档案</v:String>
-    <v:String x:Key="Installer_InstallLocation_Info_Text">安装程序将在以下文件夹中安装我的世界基岩启动器。如要安装在另一个文件夹中，</v:String>
-    <v:String x:Key="Installer_InstallLocation_Info2_Text">请点击“浏览”并选择那个文件夹。</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info_Text">安装程序将在以下文件夹中安装我的世界基岩启动器，如要安装在另一个文件夹中，</v:String>
+    <v:String x:Key="Installer_InstallLocation_Info2_Text">请点击“浏览”并选择那个文件夹</v:String>
 
     <v:String x:Key="Installer_InstallLocation_DestinationFolder_Header">目标文件夹</v:String>
     <v:String x:Key="Installer_InstallLocation_Browse_Text">浏览</v:String>
@@ -420,7 +420,7 @@
     <v:String x:Key="Installer_InstallationProgress_FilesInUse">其中一些文件目前正在被以下软件使用：</v:String>
 
     <v:String x:Key="Installer_InstallationProgress_Title">正在安装</v:String>
-    <v:String x:Key="Installer_InstallationProgress_Info_Text">安装程序正在您的计算机上安装我的世界基岩启动器，请稍候。</v:String>
+    <v:String x:Key="Installer_InstallationProgress_Info_Text">安装程序正在您的计算机上安装我的世界基岩启动器，请稍候...</v:String>
 
 
     <!--#endregion-->
@@ -429,7 +429,7 @@
     <v:String x:Key="Installer_Dialog_MovingFileFailed_Text">无法移动文件</v:String>
     <v:String x:Key="Installer_Dialog_FileLocked_Text">文件正在被其他程序使用</v:String>
     <v:String x:Key="Installer_Dialog_TryAgain_Text">再试一次？</v:String>
-    <v:String x:Key="Installer_Dialog_ErrorOccured_Text">发生错误。</v:String>
+    <v:String x:Key="Installer_Dialog_ErrorOccured_Text">发生错误</v:String>
 
     <!--#region ProgressBar -->
 
@@ -473,11 +473,11 @@
     <v:String x:Key="ThemeEntries_CatsAndPandasUpdate">猫与熊猫 [基岩]</v:String>
     <v:String x:Key="ThemeEntries_PocketEditionRelease">正式发布 [基岩]</v:String>
 
-    <v:String x:Key="ThemeEntries_BedrockAndJavaTogetherTechnoblade">基岩版与 Java版（Technoblade）</v:String>
-    <v:String x:Key="ThemeEntries_BedrockAndJavaTogether">基岩版与 Java版</v:String>
+    <v:String x:Key="ThemeEntries_AndJavaTogetherTechnoblade">基岩版与 Java版（Technoblade）</v:String>
+    <v:String x:Key="ThemeEntries_AndJavaTogether">基岩版与 Java版</v:String>
 
-    <v:String x:Key="ThemeEntries_BedrockStandard">基岩版标准版</v:String>
-    <v:String x:Key="ThemeEntries_BedrockMaster">基岩版豪华版</v:String>
+    <v:String x:Key="ThemeEntries_Standard">基岩版标准版</v:String>
+    <v:String x:Key="ThemeEntries_Master">基岩版豪华版</v:String>
     <v:String x:Key="ThemeEntries_EarlyLegacyConsole">原主机板时代原始时期</v:String>
     <v:String x:Key="ThemeEntries_MidLegacyConsole">原主机板时代中期</v:String>
     <v:String x:Key="ThemeEntries_LateLegacyConsole">原主机板时代后期</v:String>
