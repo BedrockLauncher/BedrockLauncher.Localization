@@ -460,6 +460,8 @@
     <v:String x:Key="ThemeEntries_Original">原版</v:String>
     <v:String x:Key="ThemeEntries_Custom">自定义</v:String>
 
+    <v:String x:Key="ThemeEntries_WildernessBound">Wilderness Bound</v:String>
+    <v:String x:Key="ThemeEntries_ChaosCubed">Chaos Cubed</v:String>
     <v:String x:Key="ThemeEntries_TinyTakeover">小鬼当家</v:String>
     <v:String x:Key="ThemeEntries_MountsOfMayhem">群骑纷争</v:String>
     <v:String x:Key="ThemeEntries_TheCopperAge">铜器时代</v:String>
