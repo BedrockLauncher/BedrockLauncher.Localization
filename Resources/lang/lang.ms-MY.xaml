@@ -460,6 +460,8 @@ dimatikan, cuba hidupkannya kembali dan cari lagi</v:String>
     <v:String x:Key="ThemeEntries_Original">Asal</v:String>
     <v:String x:Key="ThemeEntries_Custom">Tersuai</v:String>
 
+    <v:String x:Key="ThemeEntries_WildernessBound">Wilderness Bound</v:String>
+    <v:String x:Key="ThemeEntries_ChaosCubed">Chaos Cubed</v:String>
     <v:String x:Key="ThemeEntries_TinyTakeover">Tiny Takeover</v:String>
     <v:String x:Key="ThemeEntries_MountsOfMayhem">Mounts of Mayhem</v:String>
     <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>

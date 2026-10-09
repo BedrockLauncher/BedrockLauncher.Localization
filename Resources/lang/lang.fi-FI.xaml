@@ -459,6 +459,8 @@ Tämä {0} tullaan menettämään ikiajoiksi! (Pitkäksi ajaksi!)</v:String>
     <v:String x:Key="ThemeEntries_Original">Alkuperäinen</v:String>
     <v:String x:Key="ThemeEntries_Custom">Mukautettu</v:String>
 
+    <v:String x:Key="ThemeEntries_WildernessBound">Wilderness Bound</v:String>
+    <v:String x:Key="ThemeEntries_ChaosCubed">Chaos Cubed</v:String>
     <v:String x:Key="ThemeEntries_TinyTakeover">Tiny Takeover</v:String>
     <v:String x:Key="ThemeEntries_MountsOfMayhem">Mounts of Mayhem</v:String>
     <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>

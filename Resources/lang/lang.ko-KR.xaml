@@ -459,6 +459,8 @@ NOT ASSOCIATED OR APPROVED BY MOJANG</v:String>
     <v:String x:Key="ThemeEntries_Original">원본</v:String>
     <v:String x:Key="ThemeEntries_Custom">사용자 지정</v:String>
 
+    <v:String x:Key="ThemeEntries_WildernessBound">Wilderness Bound</v:String>
+    <v:String x:Key="ThemeEntries_ChaosCubed">Chaos Cubed</v:String>
     <v:String x:Key="ThemeEntries_TinyTakeover">꼬마 몹 대소동</v:String>
     <v:String x:Key="ThemeEntries_MountsOfMayhem">광란의 탈것</v:String>
     <v:String x:Key="ThemeEntries_TheCopperAge">구리 시대</v:String>

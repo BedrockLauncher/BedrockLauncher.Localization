@@ -459,6 +459,8 @@
     <v:String x:Key="ThemeEntries_Original">Ориґінал</v:String>
     <v:String x:Key="ThemeEntries_Custom">Власний</v:String>
 
+    <v:String x:Key="ThemeEntries_WildernessBound">Wilderness Bound</v:String>
+    <v:String x:Key="ThemeEntries_ChaosCubed">Chaos Cubed</v:String>
     <v:String x:Key="ThemeEntries_TinyTakeover">Tiny Takeover</v:String>
     <v:String x:Key="ThemeEntries_MountsOfMayhem">Mounts of Mayhem</v:String>
     <v:String x:Key="ThemeEntries_TheCopperAge">The Copper Age</v:String>
